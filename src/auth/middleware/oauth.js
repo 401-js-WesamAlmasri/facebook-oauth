@@ -3,7 +3,7 @@
 const superAgent = require('superagent');
 const User = require('../models/users');
 
-const redirectUri = 'http://localhost:3000/oauth';
+const redirectUri = 'https://fb-oauth-api.herokuapp.com/oauth';
 const remotTokenLink = 'https://graph.facebook.com/v10.0/oauth/access_token';
 const remoteUsreLink = 'https://graph.facebook.com/me';
 
