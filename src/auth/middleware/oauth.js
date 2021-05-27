@@ -31,8 +31,9 @@ async function getAccessTokenFromCode(code) {
       code: code,
     });
     return response.body.access_token;
-  } catch (error) {
-    throw new Error(error.message);
+  } catch (e) {
+    console.log('ERROR IN GET ACCESS TOKENF ROM CODE : ', e);
+    throw new Error(e.message);
   }
 }
 
@@ -43,9 +44,9 @@ async function getRemoteUserData(accesstoken) {
       .set('Authorization', `Bearer ${accesstoken}`)
       .set('Accept', 'application/json');
     return response.body;
-  } catch (error) {
-    console.log(error);
-    throw new Error(error.message);
+  } catch (e) {
+    console.log('ERROR IN GET REMOTE USER : ', e);
+    throw new Error(e.message);
   }
 }
 
