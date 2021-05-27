@@ -2,11 +2,13 @@
 
 ## Author: Wesam Al-Masri
 
-A simple API server with basic and bearer authentication system to register a user and login.
+A simple API server with basic and bearer authentication system to register a user and login and Facebook Oauth system.
 
-- [Submission Pull Request](https://github.com/401-js-WesamAlmasri/bearer-auth/pull/1)
-- [Tests](https://github.com/401-js-WesamAlmasri/bearer-auth/actions/)
-- [Deployed url](https://bearer-auth-api.herokuapp.com/)
+- [Submission Pull Request](https://github.com/401-js-WesamAlmasri/
+facebook-oauth/pull/1)
+- [Tests](https://github.com/401-js-WesamAlmasri/
+facebook-oauth/actions/)
+- [Deployed url](https://fb-oauth-api.herokuapp.com//)
 
 ## Setup
 
