@@ -4,10 +4,8 @@
 
 A simple API server with basic and bearer authentication system to register a user and login and Facebook Oauth system.
 
-- [Submission Pull Request](https://github.com/401-js-WesamAlmasri/
-facebook-oauth/pull/1)
-- [Tests](https://github.com/401-js-WesamAlmasri/
-facebook-oauth/actions/)
+- [Submission Pull Request](https://github.com/401-js-WesamAlmasri/facebook-oauth/pull/1)
+- [Tests](https://github.com/401-js-WesamAlmasri/facebook-oauth/actions/)
 - [Deployed url](https://fb-oauth-api.herokuapp.com//)
 
 ## Setup
